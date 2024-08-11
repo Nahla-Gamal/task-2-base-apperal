@@ -1,0 +1,76 @@
+@font-face {
+  font-family: 'josefin_Sans';
+  src: url('./fonts/static/JosefinSans-SemiBold.ttf');
+  font-weight: bold;
+}
+@font-face {
+  font-family: 'josefin_Sans';
+  src: url('./fonts/static/JosefinSans-Light.ttf');
+  font-weight: lighter;
+}
+@font-face {
+  font-family: 'josefin_Sans';
+  src: url('./fonts/static/JosefinSans-Regular.ttf');
+  font-weight: normal;
+}
+
+
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'josefin_Sans';
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+}
+
+.section-content {
+  display: flex;
+  width: 100%;
+
+}
+@media only screen and (max-width: 749px) {
+  .section-content {
+    flex-direction: column-reverse;
+    align-items: center;
+    
+  }
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.text-secondary {
+  color: hsl(0, 36%, 70%);
+}
+
+.desktop {
+  display: none;
+}
+
+@media only screen and (min-width: 750px) {
+  .desktop {
+    display: flex;
+    
+  }
+}
+
+.mobile {
+  display: none;
+}
+
+@media only screen and (max-width: 749px) {
+  .mobile {
+    display: flex;
+
+  }
+}

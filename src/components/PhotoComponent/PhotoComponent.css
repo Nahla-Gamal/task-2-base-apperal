@@ -1,0 +1,14 @@
+#imgDiv {
+    width: 40%;
+    height: 100%;
+}
+#imgDiv >img {
+    width: 100%;
+    height: 100%;
+}
+@media only screen and (max-width: 749px) {
+    #imgDiv {
+        width: 100%;
+        height: 40%;
+    }
+}
